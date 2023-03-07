@@ -20,6 +20,7 @@ var events = {
     changedLine:    () => {}
 };
 
+editor.setKeyboardHandler("ace/keyboard/vim");
 editor.setShowPrintMargin(false);
 editor.setOptions({
     enableBasicAutocompletion: true,
