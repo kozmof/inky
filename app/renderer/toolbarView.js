@@ -1,5 +1,6 @@
-const electron = require("electron");
-const remote = electron.remote;
+// const electron = require("electron");
+// const remote = electron.remote;
+const remote = require('@electron/remote');
 const $ = window.jQuery = require('./jquery-2.2.3.min.js');
 const i18n = require("./i18n.js");
 

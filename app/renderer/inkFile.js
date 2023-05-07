@@ -2,7 +2,8 @@ const path = require("path");
 const fs = require("fs");
 const assert = require("assert");
 
-const remote = require('electron').remote;
+// const remote = require('electron').remote;
+const remote = require('@electron/remote');
 const dialog = remote.dialog;
 const mkdirp = require('mkdirp');
 

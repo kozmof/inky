@@ -1,3 +1,6 @@
+# Caution!
+This branch is under developing. Electron was version up to 24.2.0 but not completed because it is `nodeIntegration: true` and `contextIsolation: false`. 
+
 ![](resources/icon-small.jpg)
 
 # Inky

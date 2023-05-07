@@ -11,6 +11,9 @@ const forceQuitDetect = require('./forceQuitDetect');
 const Inklecate = require("./inklecate.js").Inklecate;
 const fs = require("fs");
 
+// in the main process:
+require('@electron/remote/main').initialize()
+
 function inkJSNeedsUpdating() {
     return false;
     // dialog.showMessageBox({
@@ -25,6 +28,10 @@ function inkJSNeedsUpdating() {
 let pendingPathToOpen = null;
 let hasFinishedLaunch = false;
 let isQuitting = false;
+
+app.on('browser-window-created', (_, window) => {
+    require("@electron/remote/main").enable(window.webContents)
+})
 
 app.on("open-file", function (event, path) {
 

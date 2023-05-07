@@ -1,4 +1,5 @@
-const remote = require('electron').remote;
+// const remote = require('electron').remote;
+const remote = require('@electron/remote');
 const dialog = remote.dialog;
 const ipc = require("electron").ipcRenderer;
 const path = require("path");
