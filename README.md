@@ -1,5 +1,5 @@
 # Caution!
-This branch is under developing. Electron was version up to 24.2.0 from 4.2.0 but not completed because it is `nodeIntegration: true` and `contextIsolation: false`. So it still has security concerns.
+This branch is under developing. Electron was upgraded from 4.2.0 to 24.2.0 but not completed because it is `nodeIntegration: true` and `contextIsolation: false`. So it still has security concerns.
 
 ![](resources/icon-small.jpg)
 
