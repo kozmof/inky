@@ -7,6 +7,7 @@ Inky-linux-x64
 Inky_windows.zip
 ReleaseUpload
 app/renderer/documentation/
+app/.webpack/
 .idea/
 *.AppImage
 AppImage
